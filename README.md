@@ -87,3 +87,11 @@ Procesos: Cómo identificar los números impares y cómo calcular su producto.
 Salidas: El resultado del producto y la lista de los números utilizados.
 
 Ejemplo de cálculo: Una demostración manual del cálculo con los números 1, 3, 5, 7, 9, 11, 13, 15, 17, 19.
+
+# Ejercicio 5: Media de números positivos, negativos, cantidad de ceros de 10 números digitados por el usuario.
+
+Entradas: 10 números digitados por el usuario
+
+Procesos: 1. Por cada número digitado, identificar si es positivo, negarivo o cero. Calcular la media de los números positivos y negativos. Contar la cantidad de veces que se digita el cero.
+
+Salidas: Mostrar la media de los números positivos, la media de los números negativos, y la cantidad de cantidad de ceros.

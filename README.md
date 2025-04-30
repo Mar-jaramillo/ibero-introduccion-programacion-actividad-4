@@ -92,6 +92,14 @@ Ejemplo de cálculo: Una demostración manual del cálculo con los números 1, 3
 
 Entradas: 10 números digitados por el usuario
 
-Procesos: 1. Por cada número digitado, identificar si es positivo, negarivo o cero. Calcular la media de los números positivos y negativos. Contar la cantidad de veces que se digita el cero.
+Procesos: 1. Por cada número digitado, identificar si es positivo, negarivo o cero. 2. Calcular la media de los números positivos y negativos. 3. Contar la cantidad de veces que se digita el cero.
 
 Salidas: Mostrar la media de los números positivos, la media de los números negativos, y la cantidad de cantidad de ceros.
+
+# Ejercicio 8: Pedir N números, introducir N sueldos y mostrar el máximo.
+
+Entradas: 1. Solicitar un número que será la cantidad de veces que se digita un sueldo. 2. Con base al número anterior, pedir los sueldos.
+
+Procesos: 1. Guardar el número que será la cantidad de veces que el programa pedirá los sueldos. 2. Guardar los sueldos. 3. De los sueldos calcular cuál es el máximo.
+
+Salidas: Mostrar el suledo máximo.

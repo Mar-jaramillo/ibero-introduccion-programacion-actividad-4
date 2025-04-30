@@ -81,6 +81,9 @@ Total de intentos realizados hasta acertar
 # Ejercicio 3 Productos de 10 primeros números
 
 Entradas: En este caso no hay entradas del usuario ya que trabajamos con valores predefinidos.
+
 Procesos: Cómo identificar los números impares y cómo calcular su producto.
+
 Salidas: El resultado del producto y la lista de los números utilizados.
+
 Ejemplo de cálculo: Una demostración manual del cálculo con los números 1, 3, 5, 7, 9, 11, 13, 15, 17, 19.

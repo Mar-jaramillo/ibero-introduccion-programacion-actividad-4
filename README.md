@@ -32,7 +32,7 @@ Al introducir un número negativo: mensaje de finalización
 
 "Número negativo introducido. Programa terminado."
 
-#Ejercicio 2 Adivinar el número
+# Ejercicio 2 Adivinar el número
 
 Entradas:
 

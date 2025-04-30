@@ -78,7 +78,7 @@ Mensaje de felicitación indicando que se ha adivinado el número
 Número secreto que había que adivinar
 Total de intentos realizados hasta acertar
 
-# Ejercicio 2 Adivinar el número
+# Ejercicio 3 Productos de 10 primeros números
 
 Entradas: En este caso no hay entradas del usuario ya que trabajamos con valores predefinidos.
 Procesos: Cómo identificar los números impares y cómo calcular su producto.

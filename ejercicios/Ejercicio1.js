@@ -11,13 +11,13 @@ function calcularCuadrados() {
 
     // Verificar si el número es negativo
     if (numero < 0) {
-      console.log("Número negativo introducido. Programa terminado.");
+      prompt("Número negativo introducido. Programa terminado.");
       break;
     }
 
     // Calcular y mostrar el cuadrado
     const cuadrado = numero * numero;
-    console.log(`El cuadrado de ${numero} es: ${cuadrado}`);
+    prompt(`El cuadrado de ${numero} es: ${cuadrado}`);
   } while (true); // El bucle se ejecutará hasta que se introduzca un número negativo
 }
 

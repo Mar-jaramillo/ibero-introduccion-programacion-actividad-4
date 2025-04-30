@@ -103,3 +103,11 @@ Entradas: 1. Solicitar un número que será la cantidad de veces que se digita u
 Procesos: 1. Guardar el número que será la cantidad de veces que el programa pedirá los sueldos. 2. Guardar los sueldos. 3. De los sueldos calcular cuál es el máximo.
 
 Salidas: Mostrar el suledo máximo.
+
+# Ejercicio 9: Contador de 00000 a 99999, sustituyendo 3 por E, y mostrarlo con formato (X-X-X-X-X)
+
+Entradas: No se solicitan
+
+Procesos: 1. Bucle con números desde el 0 hasta el 99999. 2. Por cada número reemplazar 3 por E y asignar formato de 5 digitos (X-X-X-X-X)
+
+Salidas: Mostrar el número con el formato (X-X-X-X-X)

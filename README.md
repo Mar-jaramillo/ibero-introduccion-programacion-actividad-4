@@ -88,6 +88,22 @@ Salidas: El resultado del producto y la lista de los números utilizados.
 
 Ejemplo de cálculo: Una demostración manual del cálculo con los números 1, 3, 5, 7, 9, 11, 13, 15, 17, 19.
 
+# Ejercicio 4 factorial de un numero
+
+Entradas: 
+Numero digitado por el usuario
+
+procesos:
+
+Validar que el numero sea positivo y mayor a cero
+Calcular el factorial del numero ingresado
+
+salidas:
+
+Mostrar el factorial
+
+
+
 # Ejercicio 5: Media de números positivos, negativos, cantidad de ceros de 10 números digitados por el usuario.
 
 Entradas: 10 números digitados por el usuario

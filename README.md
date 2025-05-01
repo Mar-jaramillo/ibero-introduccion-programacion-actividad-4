@@ -112,6 +112,55 @@ Procesos: 1. Por cada número digitado, identificar si es positivo, negarivo o c
 
 Salidas: Mostrar la media de los números positivos, la media de los números negativos, y la cantidad de cantidad de ceros.
 
+# Ejercicio 6 tabla de multiplicar
+
+Entradas:
+
+Pedir al usuario que ingrese un numero
+
+Procesos:
+ Validar que el numero esté dentro del rango de 0 a 10
+ Calcular la tabla de multiplicar del numero ingresado en un bucle for
+
+ Salidas:
+ Mostrar resultado en pantalla
+
+
+# Ejercicio 7 Empresa de desinfectantes
+
+El programa pide al usuario los datos de 5 facturas. En cada una se debe ingresar:
+
+El código del artículo (un número que identifica el producto).
+
+La cantidad de litros vendidos.
+
+El precio por litro.
+
+Estos datos se repiten para cada una de las 5 facturas.
+
+
+procesos:
+
+Se calcula cuánto se vendió en total en cada factura, multiplicando los litros por el precio por litro.
+
+Se suma ese valor a un total general, que es el dinero total facturado.
+
+Si el código del artículo es 1, suma los litros de esa factura a un contador para ese producto.
+
+Si la factura vale más de $600, aumenta un contador que guarda cuántas facturas fueron grandes.
+
+Se repite todo esto hasta completar las 5 facturas.
+
+Salidas:
+el programa muestra mediante un window.alert
+
+Cuánto dinero se facturó en total.
+
+Cuántos litros se vendieron del artículo número 1.
+
+Cuántas facturas fueron mayores a $600.
+
+
 # Ejercicio 8: Pedir N números, introducir N sueldos y mostrar el máximo.
 
 Entradas: 1. Solicitar un número que será la cantidad de veces que se digita un sueldo. 2. Con base al número anterior, pedir los sueldos.

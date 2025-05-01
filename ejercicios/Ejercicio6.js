@@ -1,24 +1,20 @@
-let facturacionTotal = 0;  
-let litrosArticulo1 = 0;   
-let facturasSuperaron600 = 0; 
+// Solicitamos al usuario que ingrese un número entre 0 y 10
+let numeroIngresado = parseInt(prompt("Ingresa un número entre 0 y 10"));
 
-for (let i = 0; i < 5; i++) { 
-    let codigoArticulo = prompt("Ingresa el código del artículo:"); 
-    let cantidadVendida = parseFloat(prompt("Ingresa la cantidad vendida en litros:"));
-    let precioPorLitro = parseFloat(prompt("Ingresa el precio por litro:"));
-    
-    let totalFactura = cantidadVendida * precioPorLitro;    
-        facturacionTotal += totalFactura;
-    
-    if (codigoArticulo == 1) {
-        litrosArticulo1 += cantidadVendida;
-    }
-    
-    if (totalFactura > 600) {
-        facturasSuperaron600++;
-    }
-}
+// Verificamos si el valor ingresado no es un número o está fuera del rango
+if (isNaN(numeroIngresado) || numeroIngresado < 0 || numeroIngresado > 10) {
+  // Muestra un mensaje de error si el dato no es valido
+  alert("Entrada incorrecta. Por favor, ingresa un número del 0 al 10.");
+} else {
+  // Aqui se inicia una cadena vacía para guardar el texto con la tabla de multiplicar
+  let resultadoFinal = "";
 
-alert("Facturación total: " + facturacionTotal);
-alert("Litros vendidos del artículo 1: " + litrosArticulo1);
-alert("Facturas que superaron los 600: " + facturasSuperaron600);
+  // Bucle para generar las multiplicaciones del 1 al 10
+  for (let multiplicador = 1; multiplicador <= 10; multiplicador++) {
+    // Se hace la multiplicación y se guarda el resultado como una línea de texto.
+    resultadoFinal += `${numeroIngresado} x ${multiplicador} = ${numeroIngresado * multiplicador}\n`;
+  }
+
+  // Muestramos la tabla completa en una ventana emergente
+  alert(`La tabla de multiplicar del ${numeroIngresado} es:\n${resultadoFinal}`);
+  }
